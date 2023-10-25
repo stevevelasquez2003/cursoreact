@@ -105,6 +105,68 @@ export function Home() {
       </div>
       <div className="banner2"></div>
 
+      <div className="container-fluid">
+        <div className="row">
+            <div className="col-12">
+                <img src="../../src/assets/img/banner3.jpg" alt="foto" className='img-fluid w-100' />
+            </div>
+        </div>
+          <div className="row row-cols-1 row-cols-md-3 my-5">
+              <div className="col text-center">
+                  <div className="card h-100 shadow p-3">
+                      <img src="../../src/assets/img/fondo5.webp" alt="foto" className='img-fluid ' />
+                      <h3>Servicio 1</h3>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum doloremque libero illum saepe! Ipsa deserunt illum ducimus maxime, dolor saepe perferendis incidunt facere laboriosam. Itaque nihil qui earum unde. Veritatis.</p>
+                      <hr />
+                      <h5 className='fw-bold text-success'>$500.000 COP</h5>
+                      <button className='btn btn-info'>Ampliar</button>
+                  </div>
+              </div>
+              <div className="col">
+              <div className="card h-100 shadow p-3">
+                      <img src="../../src/assets/img/fondo4.jpg" alt="foto" className='img-fluid ' />
+                      <h3>Servicio 2</h3>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum rem in officia delectus esse hic dolor atque molestiae harum! Iure eos alias velit dolore, rerum ullam! Praesentium ratione dolorem earum natus magnam nam nihil officiis sunt consequuntur recusandae voluptates accusamus ab excepturi explicabo impedit repellendus, labore aliquid velit alias voluptatum vel similique nemo? Maiores amet quo beatae eveniet laborum enim, harum dolorum quis atque fugit asperiores rem ea. Corrupti vel adipisci, error quod culpa illo eaque non. Debitis rem ipsum officia harum facilis, hic voluptatem distinctio voluptate tempore voluptas? Inventore nulla cum eaque incidunt neque? Esse quis accusamus fuga repudiandae.</p>
+                      <hr />
+                      <h5 className='fw-bold text-success'>$500.000 COP</h5>
+                      <button className='btn btn-info'>
+                        Ampliar
+                        <i class="bi bi-shop-window"></i>
+                      </button>
+                  </div>
+              </div>
+              <div className="col">
+              <div className="card h-100  shadow p-3">
+                      <img src="../../src/assets/img/fondo6.jpg" alt="foto" className='img-fluid ' />
+                      <h3>Servicio 3</h3>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum doloremque libero illum saepe! Ipsa deserunt illum ducimus maxime, dolor saepe perferendis incidunt facere laboriosam. Itaque nihil qui earum unde. Veritatis.</p>
+                      <hr />
+                      <h5 className='fw-bold text-success'>$500.000 COP</h5>
+                      <button className='btn btn-info'>Ampliar</button>
+                  </div>
+              </div>
+
+
+          </div>
+      </div>
+
+          <footer>
+              <div className="container-fluid bg-dark text-white">
+                <div className="row p-5">
+                  <div className="col-6 text-end border-end">
+                    <h5>Medellin-Colombia</h5>
+                      <h5>Todos los derechos &copy;</h5>
+                  </div>
+                  <div className="col-6 align-self-center">
+                  <i class="bi bi-instagram p-2 fs-4">Instagram</i> <br />
+                  <i class="bi bi-facebook p-2 fs-4">Facebook</i><br />
+                  <i class="bi bi-twitter-x p-2 fs-4">Twitter</i>
+                  <i class="bi bi-tiktok p-2 fs-4">Tiktok</i><br />
+                  </div>
+                </div>
+            </div>
+          </footer>
+
     </>
   )
 
